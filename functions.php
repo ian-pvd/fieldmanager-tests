@@ -169,3 +169,6 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 require_once FMT_PATH . '/inc/post-types/class-fieldmanager-tests-custom-post-type-mountains.php';
 require_once FMT_PATH . '/inc/post-types/class-fieldmanager-tests-custom-post-type-hikes.php';
 
+// Include Fieldmanager Config.
+require_once FMT_PATH . '/inc/post-types/hikes/fields.php';
+require_once FMT_PATH . '/inc/post-types/mountains/fields.php';
